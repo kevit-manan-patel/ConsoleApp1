@@ -98,13 +98,18 @@ namespace ConsoleApp1
 
             //// Keeps the terminal window open until you press a key
             //Console.ReadLine();
-            Console.WriteLine("Enter the length of the rectangle");
-            int length = int.Parse(Console.ReadLine());
-            Console.WriteLine("Enter the width of the rectangle");
-            int width = int.Parse(Console.ReadLine());
-            int result = nw.CalcArea(length ,width);
-            Console.WriteLine($"The area of the rectangle is : {result}");
-            Console.ReadLine(); // Keeps terminal open
+            //Console.WriteLine("Enter the length of the rectangle");
+            //int length = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter the width of the rectangle");
+            //int width = int.Parse(Console.ReadLine());
+            //int result = nw.CalcArea(length ,width);
+            //Console.WriteLine($"The area of the rectangle is : {result}");
+            //Console.ReadLine(); // Keeps terminal open
+
+            NewClass.MyMethod("Sweden");
+            NewClass.MyMethod("India");
+            NewClass.MyMethod();
+            NewClass.MyMethod("USA");
         }
     }   
 }

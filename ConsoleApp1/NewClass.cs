@@ -17,5 +17,9 @@ namespace ConsoleApp1
             int area = length * width;
             return area;
         }
+        public static void MyMethod(string country = "Norway")
+        {
+            Console.WriteLine(country); 
+        }
     }
 }
